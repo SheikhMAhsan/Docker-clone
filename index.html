@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <link rel="stylesheet" href="./css/ham.css">
+    <link rel="icon" href="./images/browser-logo.png">
+    <title>Enterprise Container Platform | Docker</title>
+
+</head>
+<body>
+    <main>
+        <section>
+            <div class="main">
+                <div class="container">
+                    <header>
+                        <div class="brand">
+                            <img src="./images/Docker-logo.png" alt="">
+                        </div>
+                        <div class="nav">
+                            <ul>
+                                <li><a href="">Why Docker ?</a></li>
+                                <li><a href="">Products</a></li>
+                                <li><a href="">Solutions</a></li>
+                                <li><a href="">Customers</a></li>
+                                <li><a href="">Resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="account">
+                            <div>
+                                <p><i><img src="./images/search.png" alt=""></i>Sign In</p>
+                            </div>
+                            <div>
+                                <button>Get Started</button>
+                            </div>
+                            
+                        </div>
+                        <div class="hamburger hamburger--spring " id="hamburger" onclick="displayNav()">
+                            <div class="hamburger-box">
+                              <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                        
+                    </header>
+                </div>
+                    <div class="nav-expand" id="hamburger-nav">
+                        <div class="container">
+                            <!-- <div>
+                            <input type="text"><button class="search-button"><i><img src="./images/search.png" alt=""></i></button>
+                            </div> -->
+                            <ul>
+                                <li><a href="">Why Docker ?</a></li>
+                                <li><a href="">Products</a></li>
+                                <li><a href="">Solutions</a></li>
+                                <li><a href="">Customers</a></li>
+                                <li><a href="">Resources</a></li>
+                            </ul>
+                            <div>
+                                <p><i><img src="./images/search.png" alt=""></i>Sign In</p>
+                            </div>
+                            <div>
+                                <button>Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                <div class="container">
+                    <div class="title">
+                        <div>
+                            <h1>Debug your app, not your environment</h1>
+                            <h3>Securely build, share and run any application, anywhere</h3>
+                            <button class="blue-button">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="survey-container">
+                    <div class="survey-card">
+                        <div class="survey-image">
+                            <img src="./images/stackoverflow.png" alt="">
+                        </div>
+                        <div class="survey-text">
+                            <h6><a href="">SURVEY</a></h6>
+                            <h4>Docker is a Developer Favorite</h4>
+                            <p>In Stack Overflow survey developers ranked Docker #1 in “Most Loved Platform”, #2 “Most Wanted Platform” and #3 “Platform In Use”.</p>
+                            <a href="">Check out the full survey</a>
+                        </div>
+                    </div>
+                </div>    
+            
+
+            
+                <div class="docker-hub">
+                    <div class="docker-hub-img">
+                        <!-- <img src="./images/peoples.jpg" alt=""> -->
+                    </div>
+                    <div class="docker-hub-text">
+                        <h2>Docker Hub</h2>
+                        <h4>The world’s leading service for finding and sharing container images with your team and the Docker community.</h4>
+                        <p>For developers and those experimenting with Docker, Docker Hub is your starting point into Docker containers. Create an account and start exploring the millions of images that are available from the community and verified publishers.</p>
+                        <button class="blue-button">See more Docker Hub</button>
+                    </div>
+                </div>
+                <div class="docker-desktop">
+                    <div class="docker-desktop-img">
+                        <!-- <img src="./images/desktop-img.png" alt=""> -->
+                    </div>
+                    <div class="docker-desktop-text">
+                        <h2>Docker Desktop</h2>
+                        <h4>The preferred choice for millions of developers that are building containerized apps.</h4>
+                        <p>Docker Desktop and Desktop Enterprise are applications for MacOS and Windows machines for the building and sharing of containerized applications and microservices. Access <a href="">Docker Desktop</a> and follow the <a href="">guided onboarding</a> to build your first containerized application in minutes.</p>
+                        <button class="blue-button">See Docker Destop</button>
+                    </div>
+                </div>
+
+                <div class="get-started">
+                    <div class="cubes-left"></div>
+                    <div class="text-wrapper">
+                        <h2>Get started with Docker today</h2>
+                        <button class="blue-button">Get started</button>
+                    </div>
+                    <div class="cubes-right"></div>
+                </div>
+                <div class="website-logos">
+                    <div class="img-container">
+                        <img src="./images/paypal.png" alt="">
+                        <img src="./images/liberty.png" alt="">
+                        <img src="./images/sword.png" alt="">
+                        <img src="./images/visa.png" alt="">
+                        <img src="./images/adp.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="brand">
+                <img src="./images/brand.png" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li class="main-item">
+                        <a href="">Products</a>
+                    </li>
+                        <ul>
+                            <li><a href="">Product Overview</a></li>
+                        </ul>
+                    <ul>
+                        <li class="sub-item"><a href="" >Product Offerings</a></li>
+                            <ul>
+                                <li><a href="">Docker Enterprise</a></li>
+                                <li><a href="">Docker Hub</a></li>
+                            </ul>
+                        <li class="sub-item"><a href="">Product Solutions</a></li>
+                            <ul>
+                                <li><a href="">Docker Enterprise Solutions</a></li>
+                            </ul>
+                        <li class="sub-item"><a href="">Technologies</a></li>
+                            <ul>
+                                <li><a href="">Developer Tools</a></li>
+                                <li><a href="">Desktop</a></li>
+                                <li><a href="">Cnntainer Runtime</a></li>
+                                <li><a href="">Kubernetes</a></li>
+                                <li><a href="">Docker App</a></li>
+                                <li><a href="">Image Registry</a></li>
+                                <li><a href="">Container Managements</a></li>
+                            </ul>
+                    </ul>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="main-item">
+                        <a href="" >Solutions</a>
+                    </li>
+                    <ul>
+                        <li><a href="" class="sub-item">Use Cases</a></li>
+                            <ul>
+                                <li><a href="">Modern Apps</a></li>
+                                <li><a href="">Microservices</a></li>
+                                <li><a href="">CI/CD</a></li>
+                                <li><a href="">Big Data/Data Science</a></li>
+                                <li><a href="">Edge Computing</a></li>
+                                <li><a href="">Cloud Migration</a></li>
+                                <li><a href="">Digital Transformation</a></li>
+                                <li><a href="">Windows Server Migration</a></li>
+                            </ul>
+                        <li><a href="" class="sub-item">Industry</a></li>
+                            <ul>
+                                <li><a href="">Government</a></li>
+                                <li><a href="">Higher Education</a></li>
+                                <li><a href="">Financial Services</a></li>
+                                <li><a href="">Insurance</a></li>
+                                <li><a href="">Healthcare/Pharma</a></li>
+                            </ul>
+                    </ul>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="main-item">
+                        <a href="">Customers</a>
+                    </li>
+                    <ul>
+                        <li><a href="">Case Studies</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="main-item">
+                        <a href="">Company</a>
+                    </li>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">What is a Container ?</a></li>
+                        <li><a href="">Containerization Strategy</a></li>
+                        <li><a href="">Management</a></li>
+                        <li><a href="">Newsroom</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Partners</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="main-item"><a href="">Resources</a></li>
+                    <ul>
+                        <li class="sub-item"><a href="">Learn</a></li>
+                        <ul>
+                            <li><a href="">Content Library</a></li>
+                            <li><a href="">Docke Blog</a></li>
+                            <li><a href="">Community</a></li>
+                            <li><a href="">Open Source</a></li>
+                        </ul>
+                        <li class="sub-item"><a href="" >Attend</a></li>
+                        <ul>
+                            <li><a href="">DockerCon</a></li>
+                            <li><a href="">Events and Webinars</a></li>
+                        </ul>
+                        <li class="sub-item"><a href="">Tools</a></li>
+                        <ul>
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Training</a></li>
+                            <li><a href="">Customer Success</a></li>
+                            <li><a href="">Engineering Blog</a></li>
+                        </ul>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-button">
+            <button class="blue-button"><i><img src="./images/social/mail.png" alt=""></i>Contact Sales</button>
+        </div>
+
+        <div class="copyright">
+            <div>
+                <p>© 2020 Docker Inc. All rights reserved | <a href="">Terms of Service</a> | <a href="">Privacy</a> | <a href="">Legal</a></p>
+            </div>
+            <div>
+                <img src="./images/social/facebook.png" alt="">
+                <img src="./images/social/twitter.png" alt="">
+                <img src="./images/social/video.png" alt="">
+                <img src="./images/social/linkedin.png" alt="">
+                <img src="./images/social/rss.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .account{
+        display: none;
+    }
+    .title > div h1{
+        font-size: 35px;
+    }
+    .title > div h3{
+        font-size: 22px;
+    }
+    .survey-container{
+        padding: 0px;
+    }
+    .survey-card{
+        padding: 35px; 
+        margin: 0px 15px;
+    }
+    .docker-hub-img, .docker-desktop-img{
+        height: 360px;    
+    }
+    .cubes-left{
+        display: none;
+    }
+    .cubes-right{ 
+        display: none;
+    }
+    .footer-container{
+        display: block;
+        text-align: center;
+    }
+    .footer-container > div > img{
+        width: 150px;
+        margin-bottom: 25px;
+    }
+    .footer-container .main-item , .footer-container .main-item > a {
+        font-size: 18px;
+    }
+        
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    header{
+        padding-top: 15px;
+    }
+    #hamburger{
+        display: block;
+    }
+    .title{
+        padding:0;
+    }
+    /* .title > div h1{
+        font-size: 45px;
+    } */
+    .nav, .account{
+        display: none;
+    }
+    .main{
+        background-image: url(../images/bg-md.png);
+        background-position:-470px 0px;
+        background-size: auto;
+    }
+    .survey-container{
+        margin: 145px 0 70px 0 ;
+    }
+    .survey-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .survey-card .survey-image img{
+        width: 250px;
+        margin: 20px 0 30px 0;
+    }
+
+    .cubes-left{
+        width: 110px;
+    }
+    .text-wrapper h2{
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-bottom: 30px;
+    }
+    .cubes-right{ 
+        width: 165px;
+    }
+
+    .copyright{
+        display: block;
+        text-align: center;
+    }
+    .copyright >div:nth-child(1){
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+    .container{
+        width: 90%;
+    }
+    .nav ul li{
+        font-size: 13px;
+        padding: 18px 14px;
+    }
+    .survey-card{
+        /* margin: 0 50px; */
+    }
+    .docker-hub{
+        
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .docker-hub-text{
+        padding:0 30px; 
+    }
+
+    .docker-desktop{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .docker-desktop-text{
+        padding:0 30px;
+        
+    }
+}
